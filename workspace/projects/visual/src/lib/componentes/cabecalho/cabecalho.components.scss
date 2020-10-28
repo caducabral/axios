@@ -1,0 +1,28 @@
+.cabecalho {
+  display: flex;
+  position: absolute;
+  background-color: blue;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  color: white;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 80px;
+}
+
+:host ::ng-deep [primeiro] {
+  flex: 1 !important;
+  text-align: left;
+}
+
+:host ::ng-deep [segundo] {
+  flex: 1 !important;
+  text-align: center;
+}
+
+:host ::ng-deep [terceiro] {
+  flex: 1 !important;
+  text-align: end;
+  z-index: 0;
+}
